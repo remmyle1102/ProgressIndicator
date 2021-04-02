@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		314EACB126156456006126DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EACAF26156456006126DE /* Main.storyboard */; };
 		314EACB326156457006126DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314EACB226156457006126DE /* Assets.xcassets */; };
 		314EACB626156457006126DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314EACB426156457006126DE /* LaunchScreen.storyboard */; };
+		314EACC02615648E006126DE /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EACBF2615648E006126DE /* ProgressIndicator.swift */; };
+		314EACC3261564D4006126DE /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EACC2261564D4006126DE /* ProgressCircle.swift */; };
+		314EACC6261564E4006126DE /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314EACC5261564E4006126DE /* ProgressBar.swift */; };
+		314F54342616BAAA009B09CD /* progress_waiting.json in Resources */ = {isa = PBXBuildFile; fileRef = 314F542F2616BAA9009B09CD /* progress_waiting.json */; };
+		314F54352616BAAA009B09CD /* progress_loading_after.json in Resources */ = {isa = PBXBuildFile; fileRef = 314F54302616BAAA009B09CD /* progress_loading_after.json */; };
+		314F54362616BAAA009B09CD /* progress_loading_waiting.json in Resources */ = {isa = PBXBuildFile; fileRef = 314F54312616BAAA009B09CD /* progress_loading_waiting.json */; };
+		314F54372616BAAA009B09CD /* progress_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 314F54322616BAAA009B09CD /* progress_loading.json */; };
+		314F54382616BAAA009B09CD /* progress_loading_completed.json in Resources */ = {isa = PBXBuildFile; fileRef = 314F54332616BAAA009B09CD /* progress_loading_completed.json */; };
+		DAF4BCFE3B8F1D941EE55AA4 /* Pods_ProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E6BB0C7380CFDA20124EB2 /* Pods_ProgressBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,17 @@
 		314EACB226156457006126DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		314EACB526156457006126DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		314EACB726156457006126DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314EACBF2615648E006126DE /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		314EACC2261564D4006126DE /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		314EACC5261564E4006126DE /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		314F542F2616BAA9009B09CD /* progress_waiting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progress_waiting.json; path = "../../../Downloads/[Easysetup]/Progress bar_VI/xxxhdpi/Json/progress_waiting.json"; sourceTree = "<group>"; };
+		314F54302616BAAA009B09CD /* progress_loading_after.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progress_loading_after.json; path = "../../../Downloads/[Easysetup]/Progress bar_VI/xxxhdpi/Json/progress_loading_after.json"; sourceTree = "<group>"; };
+		314F54312616BAAA009B09CD /* progress_loading_waiting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progress_loading_waiting.json; path = "../../../Downloads/[Easysetup]/Progress bar_VI/xxxhdpi/Json/progress_loading_waiting.json"; sourceTree = "<group>"; };
+		314F54322616BAAA009B09CD /* progress_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progress_loading.json; path = "../../../Downloads/[Easysetup]/Progress bar_VI/xxxhdpi/Json/progress_loading.json"; sourceTree = "<group>"; };
+		314F54332616BAAA009B09CD /* progress_loading_completed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progress_loading_completed.json; path = "../../../Downloads/[Easysetup]/Progress bar_VI/xxxhdpi/Json/progress_loading_completed.json"; sourceTree = "<group>"; };
+		57E6BB0C7380CFDA20124EB2 /* Pods_ProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F18CFAC91076F4E267924D /* Pods-ProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBar.release.xcconfig"; path = "Target Support Files/Pods-ProgressBar/Pods-ProgressBar.release.xcconfig"; sourceTree = "<group>"; };
+		D9E347CC5C1483333C5192E2 /* Pods-ProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressBar.debug.xcconfig"; path = "Target Support Files/Pods-ProgressBar/Pods-ProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF4BCFE3B8F1D941EE55AA4 /* Pods_ProgressBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				314EACA826156456006126DE /* ProgressBar */,
 				314EACA726156456006126DE /* Products */,
+				BC85952291FAD8B5CCE5DDEC /* Pods */,
+				633C4F47711A69FB86ABF9A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +79,12 @@
 		314EACA826156456006126DE /* ProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				314F54302616BAAA009B09CD /* progress_loading_after.json */,
+				314F54332616BAAA009B09CD /* progress_loading_completed.json */,
+				314F54312616BAAA009B09CD /* progress_loading_waiting.json */,
+				314F54322616BAAA009B09CD /* progress_loading.json */,
+				314F542F2616BAA9009B09CD /* progress_waiting.json */,
+				314EACBE26156480006126DE /* Progress */,
 				314EACA926156456006126DE /* AppDelegate.swift */,
 				314EACAB26156456006126DE /* SceneDelegate.swift */,
 				314EACAD26156456006126DE /* ViewController.swift */,
@@ -67,6 +96,33 @@
 			path = ProgressBar;
 			sourceTree = "<group>";
 		};
+		314EACBE26156480006126DE /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				314EACBF2615648E006126DE /* ProgressIndicator.swift */,
+				314EACC2261564D4006126DE /* ProgressCircle.swift */,
+				314EACC5261564E4006126DE /* ProgressBar.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		633C4F47711A69FB86ABF9A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57E6BB0C7380CFDA20124EB2 /* Pods_ProgressBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC85952291FAD8B5CCE5DDEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E347CC5C1483333C5192E2 /* Pods-ProgressBar.debug.xcconfig */,
+				A9F18CFAC91076F4E267924D /* Pods-ProgressBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314EACBA26156457006126DE /* Build configuration list for PBXNativeTarget "ProgressBar" */;
 			buildPhases = (
+				BA00BB73A0629D0258EFA649 /* [CP] Check Pods Manifest.lock */,
 				314EACA226156456006126DE /* Sources */,
 				314EACA326156456006126DE /* Frameworks */,
 				314EACA426156456006126DE /* Resources */,
+				870C144586F2172085FEF47A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314F54342616BAAA009B09CD /* progress_waiting.json in Resources */,
+				314F54372616BAAA009B09CD /* progress_loading.json in Resources */,
+				314F54362616BAAA009B09CD /* progress_loading_waiting.json in Resources */,
+				314F54352616BAAA009B09CD /* progress_loading_after.json in Resources */,
 				314EACB626156457006126DE /* LaunchScreen.storyboard in Resources */,
+				314F54382616BAAA009B09CD /* progress_loading_completed.json in Resources */,
 				314EACB326156457006126DE /* Assets.xcassets in Resources */,
 				314EACB126156456006126DE /* Main.storyboard in Resources */,
 			);
@@ -132,14 +195,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		870C144586F2172085FEF47A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBar/Pods-ProgressBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProgressBar/Pods-ProgressBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProgressBar/Pods-ProgressBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA00BB73A0629D0258EFA649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		314EACA226156456006126DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314EACC02615648E006126DE /* ProgressIndicator.swift in Sources */,
 				314EACAE26156456006126DE /* ViewController.swift in Sources */,
 				314EACAA26156456006126DE /* AppDelegate.swift in Sources */,
 				314EACAC26156456006126DE /* SceneDelegate.swift in Sources */,
+				314EACC6261564E4006126DE /* ProgressBar.swift in Sources */,
+				314EACC3261564D4006126DE /* ProgressCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		314EACBB26156457006126DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E347CC5C1483333C5192E2 /* Pods-ProgressBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +411,7 @@
 		};
 		314EACBC26156457006126DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F18CFAC91076F4E267924D /* Pods-ProgressBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
